@@ -1,4 +1,3 @@
-import React from 'react'
 import { Property } from '../data/types'
 import { Link } from 'react-router-dom'
 import { MapPin } from 'lucide-react'

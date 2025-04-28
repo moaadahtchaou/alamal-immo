@@ -1,4 +1,3 @@
-import React from 'react'
 import SwipperFind from '../components/Home/SwipperFind'
 import Featured from '../components/Home/Featured'
 import RentBuy from '../components/Home/RentBuy'
