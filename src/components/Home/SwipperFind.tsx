@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { MapPin } from 'lucide-react';
 import "./style.css";
 import "./slicerslide.css";
@@ -10,8 +10,8 @@ const SwipperFind = () => {
   const runningTimeRef = useRef<HTMLDivElement>(null);
   
   // Use a single timer ID reference for better control
-  const autoTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const transitionTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const autoTimerRef = useRef<number  | null>(null);
+  const transitionTimerRef = useRef<number  | null>(null);
   
   // Reset animation timer
   const resetTimeAnimation = () => {
